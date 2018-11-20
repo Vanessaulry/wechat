@@ -7,8 +7,8 @@ const {appID, appsecret} = require('../config');
 
 class Wechat{
   /*
-      获取access_token
-      @return {Promise<result>}
+     *获取access_token
+     *@return {Promise<result>}
    */
   async getAccessToken(){
     //定义请求地址
